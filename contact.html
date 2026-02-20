@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yalla Code | التواصل</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <nav>
+        <div class="logo">Yalla Code</div>
+        <ul class="nav-links">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="services.html">خدماتنا</a></li>
+            <li><a href="portfolio.html">أعمالنا</a></li>
+            <li><a href="contact.html" class="active">التواصل</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="page-section fade-in">
+        <h2 class="section-title">تواصل معنا</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>نحن دائمًا بالقرب منك</h3>
+                <p style="margin-bottom: 2rem;">سواء كنت تبحث عن استشارة لمشروعك، أو ترغب في بدء شراكة معنا، لا تتردد في
+                    مراسلتنا. فريقنا متواجد للرد على كافة استفساراتكم.</p>
+
+                <div>
+                    <h4><i class="fas fa-map-marker-alt"></i> العنوان</h4>
+                    <p>شارع التكنولوجيا الحديثة، المبنى أ، الرياض</p>
+                </div>
+                <div>
+                    <h4><i class="fas fa-phone-alt"></i> الهاتف</h4>
+                    <p dir="ltr">+966 50 123 4567</p>
+                </div>
+                <div>
+                    <h4><i class="fas fa-envelope"></i> البريد الإلكتروني</h4>
+                    <p>info@moderncompany.com</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="#" method="POST"
+                    onsubmit="event.preventDefault(); alert('تم إرسال رسالتك بنجاح! شكراً لتواصلك معنا.');">
+                    <div class="input-group">
+                        <input type="text" placeholder="الاسم الكامل" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea placeholder="اكتب رسالتتك هنا..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Yalla Code. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
